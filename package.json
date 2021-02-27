@@ -1,0 +1,22 @@
+{
+  "name": "triple-x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "triple_x.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaemonIsland/triple-x.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaemonIsland/triple-x/issues"
+  },
+  "homepage": "https://github.com/KaemonIsland/triple-x#readme",
+  "dependencies": {
+    "prompt": "^1.1.0"
+  }
+}
