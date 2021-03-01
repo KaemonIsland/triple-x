@@ -7,7 +7,11 @@
 // Without this, the program won't build!
 int main() // int means that we are returning an integer
 {
+  // std = standard, it's a namespace
+  // :: = scope operator
+  // cout = Cout defined in std namespace
   std::cout << "Hello World!";
+
   // 0 states that the code has run correctly
   // Any other number will return an error
   return 0;

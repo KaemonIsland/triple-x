@@ -3,8 +3,8 @@
 
 void PlayGameAtDifficulty(int difficulty)
 {
-  std::cout << "You're a secret agent breaking into a LEVEL " << difficulty << " server room\n";
-  std::cout << "Your SuperHacker 2000 tells you the following information...\n";
+  std::cout << "You are a new developer working on building a LEVEL " << difficulty << " video game.\n";
+  std::cout << "You get an unknown error with cryptic instructions on how to solve the error.\n";
 
   srand(time(NULL)); // Create new random sequence based on time of day
   const int a = rand() % difficulty + difficulty;
@@ -15,9 +15,9 @@ void PlayGameAtDifficulty(int difficulty)
   const int product = a * b * c;
 
   std::cout << std::endl;
-  std::cout << "+ There are three numbers in the code\n";
-  std::cout << "+ The codes multiply to give " << product << std::endl;
-  std::cout << "+ The codes add-up to " << sum << std::endl;
+  std::cout << "* There are three numbers in the code\n";
+  std::cout << "* The codes multiply to give " << product << std::endl;
+  std::cout << "* The codes add-up to " << sum << std::endl;
 
   std::cout << std::endl;
   std::cout << "Enter the three code numbers followed by x\n";
@@ -37,12 +37,12 @@ void PlayGameAtDifficulty(int difficulty)
   std::cout << std::endl;
   if (trialSum == sum && trialProduct == product)
   {
-    std::cout << "CONGRATULATIONS, YOU'RE IN. Now hurry before anyone finds you.\n";
+    std::cout << "CONGRATULATIONS, YOU'RE FIXED THE BUG. Now onto the next one...\n";
     std::cout << "==============================================================\n";
   }
   else
   {
-    std::cout << "BOOM :-( You failed miserably, and died horribly.\n";
+    std::cout << "BOOM :-( that wasn't the answer. Let's keep working on this mf bug.\n";
   }
 
 }
